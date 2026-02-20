@@ -4,7 +4,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-IEEE_CONECCT_2026-blue)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COPIED_GOOGLE_DRIVE_LINK_HERE)
+[![Open In Colab](https://colab.research.google.com/drive/1US4OA6yhgoQrMuOO06atM90Ncw3Qi3vC?usp=sharing)](https://colab.research.google.com/drive/1US4OA6yhgoQrMuOO06atM90Ncw3Qi3vC?usp=sharing)
 
 >  **Note on Notebook Rendering:** GitHub's built-in file viewer occasionally fails to load `.ipynb` files that contain training progress bars. If `CONECCT.ipynb` does not display correctly below, please click the **Open in Colab** button above to instantly view and run the full code in your browser.
 
@@ -53,13 +53,16 @@ Removing the Deep Delta block from the architecture collapses all residual pathw
   <img src="vizualization.png" alt="Qualitative Results" width="400">
 </p>
 
+## Dataset Link 
+https://www.kaggle.com/datasets/apollo2506/eurosat-dataset/data
+
 ## Quickstart
 
 Because this architecture relies on standard PyTorch operations without custom CUDA kernels, the entire training, evaluation, and ablation pipeline can be run directly from our Jupyter Notebook.
 
 1. Clone the repository or download the `.ipynb` file.
 2. Open `CONECCT.ipynb` in Google Colab or your local Jupyter environment.
-3. The notebook will automatically download the EuroSAT dataset and run the training pipeline.
+3. Download the EuroSAT dataset and run the training pipeline.
 
 ## Citation
 If you find this code or the DES metric useful in your research, please consider citing our paper:
