@@ -1,10 +1,14 @@
-# Deep Delta Vision Mamba (DDV-Mamba) 🛰️
+# Deep Delta Vision Mamba (DDV-Mamba) 
 
 > **A Lightweight State Space Architecture for Efficient Remote Sensing Image Classification**
 
 [![Paper](https://img.shields.io/badge/Paper-IEEE_CONECCT_2026-blue)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](CONECCT.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COPIED_GOOGLE_DRIVE_LINK_HERE)
+
+>  **Note on Notebook Rendering:** GitHub's built-in file viewer occasionally fails to load `.ipynb` files that contain training progress bars. If `CONECCT.ipynb` does not display correctly below, please click the **Open in Colab** button above to instantly view and run the full code in your browser.
+
+---
 
 Official PyTorch implementation of **DDV-Mamba**, a hierarchical vision model designed specifically for edge-computing and on-board satellite inference. 
 
@@ -13,6 +17,8 @@ By replacing standard residual connections with a novel 2D **Deep Delta Learning
 <p align="center">
   <img src="connect4.drawio.png" alt="DDV-Mamba Architecture" width="400">
 </p>
+
+##  Key Features
 
 ## Key Features
 * **Deep Delta Block (2D):** Replaces standard additive residuals (y = x + f(x)) with a dynamic erase-and-write gating mechanism, preventing gradient collapse in deep SSM architectures.
