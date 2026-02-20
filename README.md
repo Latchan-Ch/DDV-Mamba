@@ -4,7 +4,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-IEEE_CONECCT_2026-blue)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Open In Colab](https://colab.research.google.com/drive/1US4OA6yhgoQrMuOO06atM90Ncw3Qi3vC?usp=sharing)](https://colab.research.google.com/drive/1US4OA6yhgoQrMuOO06atM90Ncw3Qi3vC?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1US4OA6yhgoQrMuOO06atM90Ncw3Qi3vC?usp=sharing)
 
 >  **Note on Notebook Rendering:** GitHub's built-in file viewer occasionally fails to load `.ipynb` files that contain training progress bars. If `CONECCT.ipynb` does not display correctly below, please click the **Open in Colab** button above to instantly view and run the full code in your browser.
 
