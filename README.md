@@ -18,8 +18,6 @@ By replacing standard residual connections with a novel 2D **Deep Delta Learning
   <img src="connect4.drawio.png" alt="DDV-Mamba Architecture" width="400">
 </p>
 
-##  Key Features
-
 ## Key Features
 * **Deep Delta Block (2D):** Replaces standard additive residuals (y = x + f(x)) with a dynamic erase-and-write gating mechanism, preventing gradient collapse in deep SSM architectures.
 * **SSM-Gated Aggregation:** Recovers global context at linear complexity without requiring custom CUDA kernel compilation.
