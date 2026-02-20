@@ -11,7 +11,7 @@ Official PyTorch implementation of **DDV-Mamba**, a hierarchical vision model de
 By replacing standard residual connections with a novel 2D **Deep Delta Learning (DDL)** operator and utilizing **SSM-Inspired Gated Aggregation**, DDV-Mamba achieves Transformer-level global receptive fields at linear computational complexity.
 
 <p align="center">
-  <img src="connect4.drawio.png" alt="DDV-Mamba Architecture" width="800">
+  <img src="connect4.drawio.png" alt="DDV-Mamba Architecture" width="400">
 </p>
 
 ## Key Features
